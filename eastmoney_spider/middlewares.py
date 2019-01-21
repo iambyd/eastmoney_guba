@@ -11,8 +11,8 @@ import base64
 
 """ 阿布云代理配置"""
 proxy_server = "http://http-dyn.abuyun.com:9020"
-proxy_user = "H309UI35W1MGC86D"
-proxy_pass = "6CCC7D57E8063709"
+proxy_user = "账号"
+proxy_pass = "密码"
 proxy_auth = "Basic " + base64.urlsafe_b64encode(
     bytes((proxy_user + ":" + proxy_pass), "ascii")).decode("utf8")
 
