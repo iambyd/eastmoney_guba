@@ -1,0 +1,2 @@
+# eastmoney_guba
+使用scrapy对东方财富网股吧数据进行抓取
